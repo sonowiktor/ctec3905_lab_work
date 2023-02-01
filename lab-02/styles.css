@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    background-color: green;
+    flex-direction: row;
+    flex-shrink: 0;
+  }
+  
+  nav a {
+    background-color: yellow;
+    color: blue;
+    padding: 0.10em;
+    margin: 0.30em;
+    transition: background-color 0.5s;
+  }
+
+  nav a:hover {
+    background-color: white;
+  }
+
+  header, section {
+    overflow: auto;
+    background-color: green;
+  }
+
+  main { 
+    display: flex;
+  }
